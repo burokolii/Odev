@@ -1,0 +1,28 @@
+1)
+#İnteger(int): Tam sayı değerlerini belirten ifade.
+#Float: ondalık sayıları belirten ifadedir.
+#String: metinsel ifaderleri kapsayan veri tipidir.
+#Boolean: iki koşulu (true or false) sağlayan veri tipi.
+
+2)
+integer: kurs tamamlama oranı
+string: kurs adları
+
+
+
+
+
+3)
+kullanıcıAdı = input("Kullanici adinizi giriniz : ")
+sifre = input("Sifrenizi giriniz: ")
+
+
+
+
+if kullanıcıAdı == "burakal":
+    if sifre == "1245628":
+        print("Şifre ve kullanıcı adı doğru giriş başarılı")
+    else:
+        print("şifreniz hatalı. Lütfen tekrar deneyin")
+else:
+    print("Kullanıcı adı hatalı tekrar deneyin")
